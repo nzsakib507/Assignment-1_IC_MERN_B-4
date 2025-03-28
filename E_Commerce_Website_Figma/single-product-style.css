@@ -1,0 +1,104 @@
+/* header footer abd product section css is comming from style.css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#header,#footer{
+    /* loading from style.css  */
+}
+
+/* hero will be loaded from shop-style.css */
+/* #shop-hero{
+    width: 100%;
+    height: 500px;
+    background-image: url('./assets/images/Shop/shop-hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.shop-hero-title{
+    font-size: 48px;
+    font-weight: 500;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    font-family: 'poppins' sans-serif;
+}
+.shop-hero-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    font-family: 'poppins' sans-serif;
+    margin-top: 20px;
+} */
+
+
+
+#our-product{
+    /* loading from style.css */
+}
+
+/* this section features will be loading from shop-style.css */
+/* #features{
+    width: 100%;
+    margin: 0 auto;
+    background: #FAF3EA;
+    padding: 80px 0;
+}
+.features-container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.features-card{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.features-card-image{   
+    width: 52px;
+    height: 60px;
+}
+.features-card-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+.features-card-title{
+    flex: 1;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+}
+.features-card-sub-title{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+    font-family: 'poppins', sans-serif;
+} */
+
+
+
