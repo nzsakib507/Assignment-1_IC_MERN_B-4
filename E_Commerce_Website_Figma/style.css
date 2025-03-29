@@ -357,7 +357,10 @@ a{
     border: 2px solid #B88E2F;
     font-family:  "Poppins", sans-serif;
 }
-
+.our-product-show-more-btn>a{
+    text-decoration: none;
+    color: #B88E2F;
+}
 
 
 
@@ -438,7 +441,7 @@ a{
 
 
 
-
+/* our product hover effect testing css */
 /* .main-container{
     width: 80%;
     margin: 0 auto;
