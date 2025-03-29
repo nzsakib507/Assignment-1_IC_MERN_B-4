@@ -11,9 +11,9 @@ a{
     color: #000;
 }
 
-#header,#footer{
-    /* loading from style.css  */
-}
+/* #header,#footer{
+    loading from style.css 
+} */
 
 /* hero will be loaded from shop-style.css */
 /* #shop-hero{
@@ -49,9 +49,9 @@ a{
 
 
 
-#our-product{
-    /* loading from style.css */
-}
+/* #our-product{
+    loading from style.css
+} */
 
 /* this section features will be loading from shop-style.css */
 /* #features{

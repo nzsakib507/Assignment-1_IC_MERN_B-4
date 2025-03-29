@@ -11,9 +11,9 @@ a{
     color: #000;
 }
 
-#header,#footer,#shop-hero{
-    /* loading from style.css  */
-}
+/* #header,#footer,#shop-hero{
+    loading from style.css 
+} */
 
 /* this hero will be loading from shop-style.css  */
 /* #shop-hero{
@@ -173,9 +173,9 @@ this is navigation button between pages */
     border: none;
     padding: 0 10px;
 }
-.blog-search-bar-image{
+/* .blog-search-bar-image{
 
-}
+} */
 
 .blog-catagory-container{
     margin: 50px auto 0 auto;
