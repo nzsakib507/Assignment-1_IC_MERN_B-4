@@ -51,6 +51,101 @@
         <div class="shop-hero-sub-title"><b>Home</b> > Checkout</div>
     </section>
 
+    <section id="checkour-area">
+        <div class="checkout-container">
+            <div class="billing-details-left">
+                <div class="billing-title">Billing details</div>
+                <form action="#" method="post">
+                   <div class="billing-form-group-sidebyside">
+                        <div class="billing-form-group">
+                            <label class="billing-label" for="name">First Name</label>
+                            <input class="billing-input" type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="billing-form-group">
+                            <label class="billing-label" for="email">Last Name</label>
+                            <input class="billing-input" type="text" id="last-name" name="last-name" required>
+                        </div>
+                   </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="phone">Company Name (Optional)</label>
+                        <input class="billing-input" type="text" id="company-name" name="company-name">
+                    </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="address">Country / Region</label>
+                        <!-- <input class="billing-input" type="text" id="Country" name="Country" required> -->
+                         <select name="Country" id="Country">
+                            <option value="">Select Country</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">UK</option>
+                            <option value="Australia">Australia</option>
+                            <option value="New Zealand">New Zealand</option>
+                            <option value="Ireland">Ireland</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="Other">Other</option>
+                         </select>
+                    </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="address">Street address</label>
+                        <input class="billing-input" type="text" id="s-address" name="s-address" required>
+                    </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="address">Town / City</label>
+                        <input class="billing-input" type="text" id="city" name="city">
+                    </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="address">Province</label>
+                        <!-- <input class="billing-input" type="text" id="Country" name="Country" required> -->
+                         <select name="Province" id="Province">
+                            <option value="">Select Province</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Rongpur">Rongpur</option>
+                            <option value="Khulna">Khulna</option>
+                         </select>
+                    </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="address">ZIP code</label>
+                        <input class="billing-input" type="text" id="zip-code" name="zip-code">
+                    </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="phone">Phone</label>
+                        <input class="billing-input" type="number" id="phone" name="phone" required>
+                    </div>
+                    <div class="billing-form-group">
+                        <label class="billing-label" for="phone">Email</label>
+                        <input class="billing-input" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="billing-form-group">
+                        <input class="billing-input" type="text" id="addition-info " name="addition-info" placeholder="Additional information">
+                    </div>
+                </form>
+            </div>
+            <div class="product-billing-right">
+                <div class="billing-product-bill-container">
+                    <div class="billing-product-title">Product</div>
+                    <div class="billing-product-subtotal">Subtotal</div>
+                </div>
+                <div class="billing-product-bill-container">
+                    <div class="billing-product-name">Asgaard sofa <span class="billing-productNumber">X 1</span></div>
+                    <div class="billing-product-price">Rs. 250,000.00</div>
+                </div>
+                <div class="billing-product-bill-container">
+                    <div class="billing-product-subtotal-text">Subtotal</div>
+                    <div class="billing-product-subtotal-price">Rs. 250,000.00</div>
+                </div>
+                <div class="billing-product-bill-container">
+                    <div class="billing-product-total-text">Total</div>
+                    <div class="billing-product-total-price">Rs. 250,000.00</div>
+                </div>
+                <hr>
+                <div class="payment-method">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="features">
         <div class="features-container">
             <div class="features-card">
