@@ -188,3 +188,51 @@ select{
     border: none;
     font-family: 'poppins', sans-serif;
 }
+.radio-input{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+.DBT-text{
+    padding: 0 0 18px 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #9f9f9f;
+    text-align: justify;
+    font-family: 'poppins', sans-serif;
+}
+.text-9f{
+    color: #9f9f9f;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+}
+.payment-method-bottom-txt{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    text-align: justify;
+    font-family: 'poppins', sans-serif;
+}
+.PV{
+    color: #000;
+    font-weight: bold;
+}
+.chackout-btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    width: 100%;
+}
+.chackout-btn{
+    padding: 20px 100px;
+    background: white;
+    color: #000;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
