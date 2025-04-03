@@ -366,6 +366,90 @@ a{
         text-decoration: none;
         color: #B88E2F;
     }
+
+
+
+    #furniture-gallary{
+        margin: 70px auto 10px auto;
+        background-color: white;
+    }
+    .furniture-gallary-sub-title{
+        font-size: 16px;
+        font-weight: 600;
+        color: #616161;
+        font-family:  "Poppins", sans-serif;
+        padding:  4px 0;
+        text-align: center;
+    }
+    .furniture-gallary-title{
+        font-size: 30px;
+        font-weight: 700;
+        color: #3A3A3A;
+        font-family:  "Poppins", sans-serif;
+        padding:  0px 0 20px 0;
+        text-align: center;
+    }
+    .furniture-gallary-container{
+        width: 100vw !important;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        overflow-x: hidden; 
+    }
+    .furniture-gallary-image-middle{
+        width: fit-content;
+    }
+    .F-left-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .F-left-top-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .F-left-bottom-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .F-right-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .F-right-top-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .F-right-bottom-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+    }
     
     
     
@@ -805,7 +889,91 @@ a{
         text-decoration: none;
         color: #B88E2F;
     }
-    
+
+
+
+    #furniture-gallary{
+        margin: 70px auto;
+        background-color: white;
+    }
+    .furniture-gallary-sub-title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #616161;
+        font-family:  "Poppins", sans-serif;
+        padding:  4px 0;
+        text-align: center;
+    }
+    .furniture-gallary-title{
+        font-size: 40px;
+        font-weight: 700;
+        color: #3A3A3A;
+        font-family:  "Poppins", sans-serif;
+        padding:  0px 0 20px 0;
+        text-align: center;
+    }
+    .furniture-gallary-container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        overflow-x: hidden; 
+    }
+    .furniture-gallary-image-middle{
+        width: fit-content;
+    }
+    .F-left-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .F-left-top-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .F-left-bottom-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .F-right-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .F-right-top-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .F-right-bottom-container{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
     
 
     #footer{
