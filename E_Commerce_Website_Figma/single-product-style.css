@@ -338,6 +338,111 @@ a{
 }
 .SP-product-info{
     margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+}
+.Sp-product-info-size{
+    width: 100%;
+    font-size: 16px;
+    color: #9f9f9f;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.SP-product-info-property{
+    width: 100px;
+    display: inline-block;
+}
+.SP-product-info-value{
+    display: inline;
+    width: calc(100% - 100px);
+}
+.Sp-product-info-size-share{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #9f9f9f;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.SP-product-info-share{
+    width: calc(100% - 150px);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
 
 }
-.
+.share-logo-image{
+    width: 25px;
+    height: 25px;
+}
+
+#SP-hero-product-description{
+    width: 100%;
+    padding: 0;
+    margin: 40px auto;
+}
+.SP-hero-product-description-title-container{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.SP-hero-product-description-title-Des{
+    /* flex: content; */
+    width: fit-content;
+    display: inline;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    font-family: "poppins", sans-serif;
+}
+.SP-hero-product-description-title-AI,
+.SP-hero-product-description-title-Review{
+    /* flex: content; */
+    width: fit-content;
+    display: inline;
+    font-size: 24px;
+    font-weight: 400;
+    color: #9f9f9f;
+    font-family: "poppins", sans-serif;
+}
+.SP-product-D1{
+    width: 1026px;
+    margin: 30px auto 20px auto;
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: "Poppins", sans-serif
+}
+.SP-product-D2{
+    width: 1026px;
+    margin: 0 auto 30px auto;
+     color: #9f9f9f;
+     font-size: 16px;
+     font-weight: 400;
+     text-align: justify;
+     font-family: "Poppins", sans-serif;   
+}
+.SP-product-description-image-container{
+    width: 82%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.SP-product-description-image{
+    width: 100%;
+}
