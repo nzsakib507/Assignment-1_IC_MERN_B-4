@@ -369,6 +369,147 @@ a{
 
 
 
+
+    #BRI{
+        width: 100%;
+        padding: 10px 0;
+        margin: 70px auto 0 auto;
+        background: #FCF8F3;
+        overflow-x: hidden;
+    }
+    .BRI-container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .BRI-Details{
+        padding-left: 6%;
+    }
+    .BRI-Details-title{
+        font-size: 40px;
+        font-weight: 700;
+        color: #3A3A3A;
+        font-family:  "Poppins", sans-serif;
+        padding:  10px 0;
+        text-align: left;
+        line-height: 120%;
+    }
+    .BRI-Details-sub-title{
+        font-size: 16px;
+        font-weight: 500;
+        color: #616161;
+        font-family:  "Poppins", sans-serif;
+        padding:  0px 0;
+        text-align: left;
+        line-height: 150%;
+    }
+    .BRI-explore-more-btn{
+        margin: 20px 0;
+        padding: 10px 30px;
+        background-color: #B88E2F;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        font-family:  "Poppins", sans-serif;
+    }
+    .BRI-middle{
+        width: 400px;
+        height: 580px;
+        margin: 20px 0;
+        background: url(./assets/images/Home/BRI-img-1.png) no-repeat center;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .BRI-middle-flote{
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        background-color: white;
+        opacity: 80%;
+        padding: 35px;
+
+    }
+    .BRI-middle-flote-title{
+        font-size: 24px;
+        font-weight: 600;
+        color: #3A3A3A;
+        font-family:  "Poppins", sans-serif;
+        line-height: 120%;
+
+    }
+    .BRI-middle-flote-sub-title{
+        font-size: 16px;
+        font-weight: 500;
+        color: #616161;
+        font-family:  "Poppins", sans-serif;
+        padding:  0px 0;
+        text-align: center;
+        line-height: 150%;
+    }
+    .BRI-arrow-btn{
+       position: absolute;
+       bottom: 5%;
+       left: 233px;
+       padding: 10px;
+       display: flex;
+       flex-wrap: nowrap;
+       align-items: center;
+        justify-content: center;
+        background-color: #B88E2F;
+    }
+    .BRI-arrow-btn>svg{
+        width: 20px;
+    }
+    .BRI-image-slide{
+        display: none;
+        width: 30%;
+        /* height: 500px; */
+        overflow: hidden;
+    }
+    
+    .BRI-image-point-container{
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .image-bri-2{
+        width: 372px;
+        height: 480px;
+
+    }
+    .point-svg{
+        width: 20px;
+        padding-right: 10px;
+    }
+    .BRI-image-pull-arrow{
+        position: absolute;
+        top: 48%;
+        right: 7%;
+        width: 50px;
+        text-align: center;
+        color: #B88E2F;
+        padding: 15px;
+        border-radius: 80%;
+        background-color: white;
+        opacity: 80%;
+    }
+
+
+
+
     #furniture-gallary{
         margin: 70px auto 10px auto;
         background-color: white;
@@ -888,6 +1029,144 @@ a{
     .our-product-show-more-btn>a{
         text-decoration: none;
         color: #B88E2F;
+    }
+
+
+
+    #BRI{
+        width: 100%;
+        padding: 10px 0;
+        margin: 70px auto 0 auto;
+        background: #FCF8F3;
+        overflow-x: hidden;
+    }
+    .BRI-container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .BRI-Details{
+        flex: 38%;
+        padding-left: 6%;
+    }
+    .BRI-Details-title{
+        font-size: 40px;
+        font-weight: 700;
+        color: #3A3A3A;
+        font-family:  "Poppins", sans-serif;
+        padding:  10px 0;
+        text-align: left;
+        line-height: 120%;
+    }
+    .BRI-Details-sub-title{
+        font-size: 16px;
+        font-weight: 500;
+        color: #616161;
+        font-family:  "Poppins", sans-serif;
+        padding:  0px 0;
+        text-align: left;
+        line-height: 150%;
+    }
+    .BRI-explore-more-btn{
+        margin: 20px 0;
+        padding: 10px 30px;
+        background-color: #B88E2F;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        font-family:  "Poppins", sans-serif;
+    }
+    .BRI-middle{
+        width: 400px;
+        height: 580px;
+        margin: 20px 0;
+        background: url(./assets/images/Home/BRI-img-1.png) no-repeat center;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .BRI-middle-flote{
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        background-color: white;
+        opacity: 80%;
+        padding: 35px;
+
+    }
+    .BRI-middle-flote-title{
+        font-size: 24px;
+        font-weight: 600;
+        color: #3A3A3A;
+        font-family:  "Poppins", sans-serif;
+        line-height: 120%;
+
+    }
+    .BRI-middle-flote-sub-title{
+        font-size: 16px;
+        font-weight: 500;
+        color: #616161;
+        font-family:  "Poppins", sans-serif;
+        padding:  0px 0;
+        text-align: center;
+        line-height: 150%;
+    }
+    .BRI-arrow-btn{
+       position: absolute;
+       bottom: 5%;
+       left: 233px;
+       padding: 10px;
+       display: flex;
+       flex-wrap: nowrap;
+       align-items: center;
+        justify-content: center;
+        background-color: #B88E2F;
+    }
+    .BRI-arrow-btn>svg{
+        width: 20px;
+    }
+    .BRI-image-slide{
+        width: 30%;
+        /* height: 500px; */
+        overflow: hidden;
+    }
+    
+    .BRI-image-point-container{
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .image-bri-2{
+        width: 372px;
+        height: 480px;
+
+    }
+    .point-svg{
+        width: 20px;
+        padding-right: 10px;
+    }
+    .BRI-image-pull-arrow{
+        position: absolute;
+        top: 48%;
+        right: 7%;
+        width: 50px;
+        text-align: center;
+        color: #B88E2F;
+        padding: 15px;
+        border-radius: 80%;
+        background-color: white;
+        opacity: 80%;
     }
 
 
