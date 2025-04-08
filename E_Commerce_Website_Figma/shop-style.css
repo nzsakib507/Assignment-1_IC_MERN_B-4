@@ -219,3 +219,53 @@ a{
     color: #898989;
     font-family: 'poppins', sans-serif;
 }
+
+
+
+@media screen and (max-width:700px) {
+    #features{
+        width: 100%;
+        margin: 0 auto;
+        background: #FAF3EA;
+        padding: 20px 0;
+    }
+    .features-container{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .features-card{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .features-card-image{   
+        width: 52px;
+        height: 60px;
+    }
+    .features-card-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3px;
+    }
+    .features-card-title{
+        flex: 1;
+        font-size: 25px;
+        font-weight: 600;
+        color: #000;
+        font-family: 'poppins', sans-serif;
+    }
+    .features-card-sub-title{
+        flex: 1;
+        font-size: 16px;
+        font-weight: 500;
+        color: #898989;
+        font-family: 'poppins', sans-serif;
+    }
+}
