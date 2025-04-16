@@ -10,7 +10,7 @@ a{
 }
 
 
-@media screen and (min-width: 280px) and (max-width:900px) {
+@media screen and (max-width:900px) {
     .display-none{
         display: none;
     }
@@ -674,7 +674,7 @@ a{
 
 
 
-@media screen and (min-width:900px) and (max-width:1600px) {
+@media screen and (min-width:900px)  {
     #header{
         margin: 0 auto;
         background-color: white;
